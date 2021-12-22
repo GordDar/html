@@ -1,0 +1,65 @@
+h1 {
+    font-size: 50px;
+    color: green;
+}
+
+#text {
+    color: aquamarine;
+}
+
+.message {
+    color: black;
+    background-color: purple;
+    border: 2px solid black;
+    font-size: 20px;
+    margin: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 5px;
+}
+
+.success {
+    background-color: lawngreen;
+}
+
+.warning {
+    background-color: dimgrey;
+}
+
+.info {
+    background-color: yellow;
+}
+
+.message:hover {
+    border: 5px solid lightcoral;
+    font-size: 50px;
+}
+
+body {
+    background-image: url(test1.jpeg);
+    background-size: 1550px;
+
+}
+
+#test {
+    transition: 2s all;
+    background-color: yellowgreen;
+    color: wheat;
+    padding: 15px;
+    margin: 100px;
+    margin-right: 100px;
+    border: 2px solid yellow;
+    border-radius: 50px;
+    opacity: 0.8;
+    box-shadow: 20px 30px 20px darkolivegreen;
+    width:1000px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px;
+
+}
+
+#test:hover {
+    transform: rotate(180deg) scale(0.3);
+    background-color: mediumpurple;
+}
